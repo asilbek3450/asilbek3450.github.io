@@ -14,6 +14,7 @@ body {
   height: 100vh;
   width: 100vw;
 }
+#resume,
 #photo,
 #telegram,
 #instagram,
@@ -32,6 +33,9 @@ body {
   animation: animate 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
+}
+#resume {
+  animation-delay: 0.2s;
 }
 #photo {
   animation-delay: 0.1s;
@@ -56,6 +60,7 @@ body {
 }
 
 @media screen and (max-width:928px){
+#resume,
 #photo,
 #telegram,
 #instagram,
@@ -71,6 +76,7 @@ body {
  .container {
   flex-direction: column;
 }
+#resume,
 #photo,
 #telegram,
 #instagram,
