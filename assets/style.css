@@ -87,3 +87,25 @@ body {
   margin: 30px 0px;
 }
 }
+
+/* create a hover with animation and bigger size */
+#resume:hover,
+#photo:hover,
+#telegram:hover,
+#instagram:hover,
+#github:hover,
+#linkedin:hover {
+    font-size: 10em;
+    animation: animate 3s linear infinite;
+    text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
+        0 0 200px #0072ff;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+#resume,
+#telegram,
+#instagram,
+#github,
+#linkedin {
+    transition: all 0.5s ease-in-out;
+}
